@@ -19,6 +19,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "main.ts"], // Adjust include paths based on your project structure
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/main.ts"], // Adjust include paths based on your project structure
   "exclude": ["node_modules", "dist", "build"] // Exclude folders that shouldn't be compiled
 }
